@@ -1,0 +1,64 @@
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/04/60/71/01/360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg");
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.container{
+    margin-top: 10%;
+    padding-bottom: 30px;
+    width: 35%;
+    line-height: 25px;
+    box-shadow: 5px 5px 5px 5px grey;
+    background-color: rgba(241, 241, 241, 0.945);
+    border-radius: 25px;
+}
+
+p
+{
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
+.form-control
+{
+    padding-bottom: 10px;
+    border: 1px solid #000000
+}
+.but{
+    margin-top: 20px;
+    width: 70%;
+    background-color:blue;
+    color: white;
+    font-size: 25px;
+    margin-left: 75px;
+}
+#togglePassword{
+    float: right;
+    margin-top: -25px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+@media(max-width:1030px)
+{
+    .container{
+        width: 65%;
+    }
+
+}
+@media(max-width:450px)
+{
+    .container{
+        width: 75%;
+    }
+    .but{
+        margin-left: 10px;
+
+    }
+
+}

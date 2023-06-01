@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="formc.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form>
+            <label class="inside" for="username">User Name:</label><br>
+            <input class="form-control" id="username" type="text">
+            <p id="user_js">username must be between 3 to 25 characters</p>
+            <label class="inside" for="email">Email:</label><br>
+            <input class="form-control" id="email" type="email">
+            <P id="email_js">enter the email only</P>
+            <label class="inside" for="password" >PassWord:</label>
+            <input class="form-control" id="password" type="password">
+            <span><i class="far fa-eye" id="togglePassword" onmousedown="show_P()" onmouseup="hide_P()"></i></span>
+            <p id="password_js">password must has atleast 8 characters that includes atleast 1 lowercase character, 1 uppercase character, 1 number, 1 special character(!@#$%^&*)</p>
+            <label class="inside" for="confirmpassword">Confirm PassWord</label>
+            <input class="form-control" placeholder="Reenter your password" id="confirmpassword">
+            <P id="Confirm_pass">please enter the password again</P>
+            <button class="but" type="submit" onclick="ale()">Sign Up</button>
+            <script src="formj.js"></script>
+        </form>
+    </div>
+    
+</body>
+</html>
